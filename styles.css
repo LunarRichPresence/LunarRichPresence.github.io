@@ -10,54 +10,56 @@
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: #36393f;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: #dcddde;
+    font-family: 'Helvetica', Arial, sans-serif;
 }
 
 /* Styling for the tabs */
 .tabs {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .tabs button {
-    padding: 15px 30px;
-    font-size: 18px;
+    padding: 12px 24px;
+    font-size: 16px;
     font-weight: bold;
     border: none;
-    background-color: #3498db;
-    color: white;
+    background-color: #7289da;
+    color: #ffffff;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
 }
 
 .tabs button:hover {
-    background-color: #2980b9;
+    background-color: #677bc4;
     transform: translateY(-3px);
 }
 
 /* Styling for the content area */
 .content {
-    padding: 30px;
-    background-color: #ffffff;
+    padding: 20px;
+    background-color: #2f3136;
     border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .content h1 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
     text-align: center;
 }
 
 .content p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
-    color: #666;
+    color: #b9bbbe;
     text-align: center;
 }
 
