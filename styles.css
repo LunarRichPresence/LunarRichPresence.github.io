@@ -12,6 +12,32 @@ body {
     color: #dcddde;
 }
 
+
+/* Additional styles for the Discord-themed button */
+.discord-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #7289da;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center;
+    margin: 0 auto; /* Center the button horizontally */
+    display: block; /* Make it block level for full width */
+    width: fit-content; /* Adjust width based on content */
+}
+
+.discord-button:hover {
+    background-color: #677bc4;
+    transform: translateY(-3px);
+}
+
+
 /* Basic styling for the container */
 .container {
     max-width: 800px;
