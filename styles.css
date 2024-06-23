@@ -62,11 +62,13 @@ body {
     text-align: center;
 }
 
-.content p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #dcddde;
-    text-align: center;
+.bulleted-list {
+    padding-left: 20px;
+}
+
+.bulleted-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 /* Discord-themed button */
