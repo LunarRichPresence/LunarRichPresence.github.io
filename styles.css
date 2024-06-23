@@ -7,36 +7,11 @@
 
 /* Body styles */
 body {
-    background-color: #36393f;
+    background: linear-gradient(135deg, #5865f2, #6e5494);
     font-family: 'Arial', sans-serif;
     color: #dcddde;
+    margin: 0;
 }
-
-
-/* Additional styles for the Discord-themed button */
-.discord-button {
-    display: inline-block;
-    padding: 12px 24px;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #7289da;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-    text-align: center;
-    margin: 0 auto; /* Center the button horizontally */
-    display: block; /* Make it block level for full width */
-    width: fit-content; /* Adjust width based on content */
-}
-
-.discord-button:hover {
-    background-color: #677bc4;
-    transform: translateY(-3px);
-}
-
 
 /* Basic styling for the container */
 .container {
@@ -60,15 +35,15 @@ body {
     font-size: 16px;
     font-weight: bold;
     border: none;
-    background-color: #7289da;
+    background: linear-gradient(135deg, #5865f2, #6e5494);
     color: #ffffff;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
+    transition: background 0.3s, transform 0.2s;
 }
 
 .tabs button:hover {
-    background-color: #677bc4;
+    background: linear-gradient(135deg, #4e5ae0, #624b8b);
     transform: translateY(-3px);
 }
 
@@ -92,4 +67,28 @@ body {
     line-height: 1.6;
     color: #dcddde;
     text-align: center;
+}
+
+/* Discord-themed button */
+.discord-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(135deg, #5865f2, #6e5494);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    text-align: center;
+    margin: 0 auto; /* Center the button horizontally */
+    display: block; /* Make it block level for full width */
+    width: fit-content; /* Adjust width based on content */
+}
+
+.discord-button:hover {
+    background: linear-gradient(135deg, #4e5ae0, #624b8b);
+    transform: translateY(-3px);
 }
