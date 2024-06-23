@@ -5,16 +5,21 @@
     box-sizing: border-box;
 }
 
+/* Body styles */
+body {
+    background-color: #36393f;
+    font-family: 'Arial', sans-serif;
+    color: #dcddde;
+}
+
 /* Basic styling for the container */
 .container {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #36393f;
+    background-color: #2f3136;
     border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    color: #dcddde;
-    font-family: 'Helvetica', Arial, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 /* Styling for the tabs */
@@ -44,9 +49,9 @@
 /* Styling for the content area */
 .content {
     padding: 20px;
-    background-color: #2f3136;
+    background-color: #36393f;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .content h1 {
@@ -59,7 +64,6 @@
 .content p {
     font-size: 16px;
     line-height: 1.6;
-    color: #b9bbbe;
+    color: #dcddde;
     text-align: center;
 }
-
