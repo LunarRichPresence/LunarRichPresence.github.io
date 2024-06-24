@@ -89,8 +89,55 @@ body {
     display: block; /* Make it block level for full width */
     width: fit-content; /* Adjust width based on content */
 }
+/* Styling for the download sections */
+/* Styling for the download sections */
+.download-section {
+    margin-top: 20px;
+    border: 2px solid transparent;
+    background: linear-gradient(135deg, #5865f2, #6e5494);
+    border-image: linear-gradient(135deg, #5865f2, #6e5494) 1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
 
-.discord-button:hover {
+.download-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.download-section p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.download-section .download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(135deg, #030309, #6e5494);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.download-section .download-button:hover {
     background: linear-gradient(135deg, #4e5ae0, #624b8b);
     transform: translateY(-3px);
 }
+/* Example CSS for footer */
+footer {
+    background-color: #2f3136;
+    color: #dcddde;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
